@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB109491D2D7BCF005C44F9 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB109461D2D7BCF005C44F9 /* ysocket.swift */; };
+		4CB1094A1D2D7BCF005C44F9 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CB109471D2D7BCF005C44F9 /* ytcpsocket.c */; };
+		4CB1094B1D2D7BCF005C44F9 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB109481D2D7BCF005C44F9 /* ytcpsocket.swift */; };
+		4CCBA9571D11A2C4009E793A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBA9561D11A2C4009E793A /* AppDelegate.swift */; };
+		4CCBA9591D11A2C4009E793A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBA9581D11A2C4009E793A /* Assets.xcassets */; };
+		4CCBA95C1D11A2C4009E793A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBA95A1D11A2C4009E793A /* MainMenu.xib */; };
+		4CCBA9641D11A4D0009E793A /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBA9631D11A4D0009E793A /* OverlayView.swift */; };
+		4CCBA9661D2AEA9F009E793A /* Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBA9651D2AEA9F009E793A /* Listener.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB109461D2D7BCF005C44F9 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = SwiftSocket/ysocket.swift; sourceTree = "<group>"; };
+		4CB109471D2D7BCF005C44F9 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = SwiftSocket/ytcpsocket.c; sourceTree = "<group>"; };
+		4CB109481D2D7BCF005C44F9 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ytcpsocket.swift; path = SwiftSocket/ytcpsocket.swift; sourceTree = "<group>"; };
+		4CCBA9531D11A2C4009E793A /* TutorOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCBA9561D11A2C4009E793A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCBA9581D11A2C4009E793A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCBA95B1D11A2C4009E793A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4CCBA95D1D11A2C4009E793A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4CCBA9631D11A4D0009E793A /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		4CCBA9651D2AEA9F009E793A /* Listener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listener.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCBA9501D11A2C4009E793A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4B6FE81D2D3A2B0077C306 /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				4CB109461D2D7BCF005C44F9 /* ysocket.swift */,
+				4CB109471D2D7BCF005C44F9 /* ytcpsocket.c */,
+				4CB109481D2D7BCF005C44F9 /* ytcpsocket.swift */,
+			);
+			name = SwiftSocket;
+			sourceTree = "<group>";
+		};
+		4CCBA94A1D11A2C4009E793A = {
+			isa = PBXGroup;
+			children = (
+				4CCBA9551D11A2C4009E793A /* TutorOverlay */,
+				4CCBA9541D11A2C4009E793A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCBA9541D11A2C4009E793A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCBA9531D11A2C4009E793A /* TutorOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCBA9551D11A2C4009E793A /* TutorOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				4CCBA9561D11A2C4009E793A /* AppDelegate.swift */,
+				4CCBA9651D2AEA9F009E793A /* Listener.swift */,
+				4CCBA9631D11A4D0009E793A /* OverlayView.swift */,
+				4C4B6FE81D2D3A2B0077C306 /* SwiftSocket */,
+				4CCBA9581D11A2C4009E793A /* Assets.xcassets */,
+				4CCBA95A1D11A2C4009E793A /* MainMenu.xib */,
+				4CCBA95D1D11A2C4009E793A /* Info.plist */,
+			);
+			path = TutorOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCBA9521D11A2C4009E793A /* TutorOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCBA9601D11A2C4009E793A /* Build configuration list for PBXNativeTarget "TutorOverlay" */;
+			buildPhases = (
+				4CCBA94F1D11A2C4009E793A /* Sources */,
+				4CCBA9501D11A2C4009E793A /* Frameworks */,
+				4CCBA9511D11A2C4009E793A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TutorOverlay;
+			productName = Tutor;
+			productReference = 4CCBA9531D11A2C4009E793A /* TutorOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCBA94B1D11A2C4009E793A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bert Freudenberg";
+				TargetAttributes = {
+					4CCBA9521D11A2C4009E793A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4CCBA94E1D11A2C4009E793A /* Build configuration list for PBXProject "TutorOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCBA94A1D11A2C4009E793A;
+			productRefGroup = 4CCBA9541D11A2C4009E793A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCBA9521D11A2C4009E793A /* TutorOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCBA9511D11A2C4009E793A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCBA9591D11A2C4009E793A /* Assets.xcassets in Resources */,
+				4CCBA95C1D11A2C4009E793A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCBA94F1D11A2C4009E793A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB1094B1D2D7BCF005C44F9 /* ytcpsocket.swift in Sources */,
+				4CCBA9571D11A2C4009E793A /* AppDelegate.swift in Sources */,
+				4CCBA9661D2AEA9F009E793A /* Listener.swift in Sources */,
+				4CB109491D2D7BCF005C44F9 /* ysocket.swift in Sources */,
+				4CCBA9641D11A4D0009E793A /* OverlayView.swift in Sources */,
+				4CB1094A1D2D7BCF005C44F9 /* ytcpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CCBA95A1D11A2C4009E793A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCBA95B1D11A2C4009E793A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCBA95E1D11A2C4009E793A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCBA95F1D11A2C4009E793A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CCBA9611D11A2C4009E793A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TutorOverlay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ycr.harc.TutorOverlay;
+				PRODUCT_NAME = TutorOverlay;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCBA9621D11A2C4009E793A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/TutorOverlay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ycr.harc.TutorOverlay;
+				PRODUCT_NAME = TutorOverlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCBA94E1D11A2C4009E793A /* Build configuration list for PBXProject "TutorOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCBA95E1D11A2C4009E793A /* Debug */,
+				4CCBA95F1D11A2C4009E793A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCBA9601D11A2C4009E793A /* Build configuration list for PBXNativeTarget "TutorOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCBA9611D11A2C4009E793A /* Debug */,
+				4CCBA9621D11A2C4009E793A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCBA94B1D11A2C4009E793A /* Project object */;
+}
