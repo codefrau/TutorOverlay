@@ -14,7 +14,16 @@ func start_listening() {
 }
 
 func listen_loop() {
-    let server: TCPServer = TCPServer(addr: "0.0.0.0", port: 8080)
+    // See Info.plist for actual port
+    var addr = "127.0.0.1"
+    var port = 49087
+    if let a = NSBundle.mainBundle().objectForInfoDictionaryKey("ListenAddress") as? String {
+        addr = a
+    }
+    if let p = NSBundle.mainBundle().objectForInfoDictionaryKey("ListenPort") as? Int {
+        port = p
+    }
+    let server: TCPServer = TCPServer(addr: addr, port: port)
     let (success,msg) = server.listen()
     if success {
         print("listening on \(server.addr):\(server.port)")
